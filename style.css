@@ -98,3 +98,14 @@ body {
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .info-card {
+    max-width: 370px;
+    min-height: 100%;
+    padding: 20px;
+  }
+  .info-card h2 {
+    font-size: 24px;
+  }
+}
